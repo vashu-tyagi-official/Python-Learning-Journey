@@ -34,7 +34,6 @@ Python-Learning-Journey/
 ├── requirements.txt # Main file for all project dependencies
 
 ├── 01-Basics/ # Python Fundamentals
-│ ├── README.md
 │ ├── 01-Introduction/
 │ ├── 02-Control_Flow/
 │ ├── 03-Data_Structures_Basic/
@@ -42,7 +41,6 @@ Python-Learning-Journey/
 │ └── Practice_Basics/
 │
 ├── 02-Intermediate/ # Intermediate Python Concepts
-│ ├── README.md
 │ ├── 01-File_Handling/
 │ ├── 02-Error_Handling/
 │ ├── 03-Modules_Packages/
@@ -51,7 +49,6 @@ Python-Learning-Journey/
 │ └── Practice_Intermediate/
 │
 ├── 03-Advanced/ # Core Advanced Python Concepts
-│ ├── README.md
 │ ├── 01-Data_Structures_Advanced/
 │ ├── 02-Algorithms/
 │ ├── 03-Design_Patterns/
@@ -81,19 +78,7 @@ To set up this project locally and run the Python scripts:
     ```bash
     cd Python-Learning-Journey
     ```
-3.  **(Recommended) Create a virtual environment:**
-    ```bash
-    python -m venv venv
-    ```
-4.  **Activate the virtual environment:**
-    - **Windows:** `.\venv\Scripts\activate`
-    - **macOS/Linux:** `source venv/bin/activate`
-5.  **Install core dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    _Note: For specific application sections (e.g., Web Development or Data Science), you might need to install additional dependencies listed in their respective `requirements.txt` files if they are not included in the main one._
-6.  **Run any Python script (e.g., a basic one):**
+3.  **Run any Python script (e.g., a basic one):**
     ```bash
     python 01-Basics/01-Introduction/hello_world.py
     ```
