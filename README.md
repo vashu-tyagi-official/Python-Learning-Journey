@@ -105,7 +105,7 @@ This project is open-source and released under the [MIT License](LICENSE). You a
 
 ## Connect with Me
 
-- **GitHub:** [Vashu Tyagi Official](https://github.com/vashu-tyagi-official)
-- **Instagram:** [My Instagram Porfile](https://www.instagram.com/vashu_tyagi_official/)
+- **GitHub:** [Vashu-Tyagi-Official](https://github.com/vashu-tyagi-official)
+- **Instagram:** [vashu_tyagi_official](https://www.instagram.com/vashu_tyagi_official/)
 
 Happy learning and coding!
