@@ -26,7 +26,7 @@ This repository is a living collection of focused Python exercises and examples,
 
 The project is organized into progressive learning modules and application areas:
 
-'''
+```
 Python-Learning-Journey/
 ├── .gitignore
 ├── LICENSE
@@ -58,7 +58,7 @@ Python-Learning-Journey/
 │ ├── 04-Concurrency_Parallelism/
 │ └── Practice_Advanced/
 └── ... # More core sections or applications to be added as the journey continues!
-'''
+```
 
 ## Purpose
 
