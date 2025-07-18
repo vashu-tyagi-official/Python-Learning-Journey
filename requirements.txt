@@ -1,0 +1,42 @@
+# requirements.txt
+
+# This file lists the Python packages required for the 'Python-Learning-Journey' project.
+
+# To install these dependencies, navigate to the project's root directory in your
+# terminal or command prompt and run:
+# pip install -r requirements.txt
+
+# It's good practice to specify exact version numbers for reproducibility.
+# You can find the installed version of a package using 'pip show <package_name>'.
+
+# Common libraries you might encounter and use during a Python learning journey:
+# Uncomment and add the packages you are actually using in your code.
+#
+# Data Manipulation and Analysis:
+# pandas==2.2.2
+# numpy==1.26.4
+
+# Data Visualization:
+# matplotlib==3.8.4
+# seaborn==0.13.2
+
+# Web Development/APIs (if you explore these areas):
+# requests==2.32.3
+# Flask==3.0.3
+# Django==5.0.6
+
+# Machine Learning (if you delve into this later):
+# scikit-learn==1.5.0
+# tensorflow==2.16.1
+# keras==3.3.3
+# pytorch==2.3.0
+# torchvision==0.18.0
+# torchaudio==2.3.0
+
+# Other utilities you might use:
+# beautifulsoup4==4.12.3  # For web scraping
+# openpyxl==3.1.2         # For Excel file handling
+# Pillow==10.3.0          # For image processing
+
+# Example of a specific project dependency (replace with your actual needs):
+# my_custom_library==1.0.0
