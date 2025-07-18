@@ -1,42 +1,18 @@
-# requirements.txt
+# Core libraries for numerical operations and data analysis
+numpy             # Fundamental package for scientific computing with Python
+pandas            # Data structures and data analysis tools
 
-# This file lists the Python packages required for the 'Python-Learning-Journey' project.
+# Visualization
+matplotlib        # Comprehensive library for creating static, animated, and interactive visualizations
 
-# To install these dependencies, navigate to the project's root directory in your
-# terminal or command prompt and run:
-# pip install -r requirements.txt
+# Machine Learning
+scikit-learn      # Simple and efficient tools for predictive data analysis
 
-# It's good practice to specify exact version numbers for reproducibility.
-# You can find the installed version of a package using 'pip show <package_name>'.
+# Web Development
+flask             # A lightweight WSGI web application framework
+requests          # Elegant and simple HTTP library for Python
+beautifulsoup4    # Library for pulling data out of HTML and XML files
 
-# Common libraries you might encounter and use during a Python learning journey:
-# Uncomment and add the packages you are actually using in your code.
-#
-# Data Manipulation and Analysis:
-# pandas==2.2.2
-# numpy==1.26.4
-
-# Data Visualization:
-# matplotlib==3.8.4
-# seaborn==0.13.2
-
-# Web Development/APIs (if you explore these areas):
-# requests==2.32.3
-# Flask==3.0.3
-# Django==5.0.6
-
-# Machine Learning (if you delve into this later):
-# scikit-learn==1.5.0
-# tensorflow==2.16.1
-# keras==3.3.3
-# pytorch==2.3.0
-# torchvision==0.18.0
-# torchaudio==2.3.0
-
-# Other utilities you might use:
-# beautifulsoup4==4.12.3  # For web scraping
-# openpyxl==3.1.2         # For Excel file handling
-# Pillow==10.3.0          # For image processing
-
-# Example of a specific project dependency (replace with your actual needs):
-# my_custom_library==1.0.0
+# Interactive Computing
+jupyter           # Interactive computing environment (Jupyter Notebooks)
+ipython           # Enhanced interactive Python shell
