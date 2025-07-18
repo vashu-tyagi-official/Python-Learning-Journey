@@ -89,7 +89,11 @@ To set up this project locally and run the Python scripts:
     ```bash
     cd Python-Learning-Journey
     ```
-3.  **Run any Python script (e.g., a basic one):**
+3.  **Install dependencies (if any, specified in `requirements.txt`):**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Run any Python script (e.g., a basic one):**
     ```bash
     python 01-Basics/01-Introduction/hello_world.py
     ```
