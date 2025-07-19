@@ -4,12 +4,12 @@ b = 3
 
 # Arithmetic
 print(f"a + b = {a + b}")
-print(f"a / b = {a / b}") # Float division
-print(f"a // b = {a // b}") # Integer division
+print(f"a / b = {a / b}")  # Float division
+print(f"a // b = {a // b}")  # Integer division
 
 # Comparison
 print(f"a > b is {a > b}")
-print(f"a == b is {a == b}")
+print(f"a == b is {a == b}")  # type:ignore
 
 # Logical
 x = True

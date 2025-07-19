@@ -1,5 +1,5 @@
 # Generators and Iterators
-def count_up_to(max_num):
+def count_up_to(max_num):  # type:ignore
     count = 1
     while count <= max_num:
         yield count  # Pauses execution and returns value

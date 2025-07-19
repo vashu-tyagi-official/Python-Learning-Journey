@@ -1,11 +1,11 @@
 # Data Structures - Lists and Tuples
 # Lists
-my_list = [1, 2, 3, "apple", True] # type: ignore
+my_list = [1, 2, 3, "apple", True]  # type: ignore
 print(f"Original list: {my_list}")
-my_list.append(4) # type: ignore
+my_list.append(4)  # type: ignore
 print(f"List after append: {my_list}")
 print(f"First element: {my_list[0]}")
-my_list[0] = 100 # Lists are mutable
+my_list[0] = 100  # Lists are mutable
 print(f"Modified list: {my_list}")
 
 # Tuples

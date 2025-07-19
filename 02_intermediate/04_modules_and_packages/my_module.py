@@ -1,10 +1,13 @@
 # my_module.py
-def circle_area(radius):
+def circle_area(radius):  # type:ignore
     import math
-    return math.pi * radius**2
 
-def greet_user(name):
+    return math.pi * radius**2 #type:ignore
+
+
+def greet_user(name): #type:ignore
     return f"Greetings from my_module, {name}!"
+
 
 if __name__ == "__main__":
     print("This is my_module being run directly.")

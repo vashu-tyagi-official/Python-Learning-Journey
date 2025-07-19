@@ -1,6 +1,6 @@
 # test_calculations.py
 import unittest
-from calculations import add, subtract, multiply, divide
+from calculations import add, subtract, multiply, divide  # type:ignore
 
 
 class TestCalculations(unittest.TestCase):

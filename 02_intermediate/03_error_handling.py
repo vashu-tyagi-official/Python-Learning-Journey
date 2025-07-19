@@ -10,6 +10,7 @@ else:
 finally:
     print("This block always executes.")
 
+
 def get_age():
     try:
         age = int(input("Enter your age: "))
@@ -19,6 +20,7 @@ def get_age():
     except ValueError as e:
         print(f"Invalid input: {e}")
         return None
+
 
 user_age = get_age()
 if user_age is not None:

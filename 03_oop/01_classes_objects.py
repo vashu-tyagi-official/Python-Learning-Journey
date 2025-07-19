@@ -3,7 +3,7 @@ class Dog:
     # Class attribute
     species = "Canis familiaris"
 
-    def __init__(self, name, age): #type:ignore
+    def __init__(self, name, age):  # type:ignore
         self.name = name  # Instance attribute
         self.age = age  # Instance attribute
 

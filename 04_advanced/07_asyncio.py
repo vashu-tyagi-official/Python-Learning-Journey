@@ -3,9 +3,9 @@ import asyncio
 import time
 
 
-async def fetch_data(delay, data_id):
+async def fetch_data(delay, data_id):  # type:ignore
     print(f"Fetching data {data_id}...")
-    await asyncio.sleep(delay)  # Simulate I/O bound operation
+    await asyncio.sleep(delay)  # Simulate I/O bound operation #type:ignore
     print(f"Finished fetching data {data_id}.")
     return f"Data {data_id} after {delay} seconds"
 

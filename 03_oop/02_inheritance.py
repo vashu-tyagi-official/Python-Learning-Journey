@@ -1,9 +1,9 @@
 # Inheritance
 class Animal:
-    def __init__(self, name): #type:ignore
+    def __init__(self, name):  # type:ignore
         self.name = name
 
-    def speak(self): #type:ignore
+    def speak(self):  # type:ignore
         raise NotImplementedError("Subclass must implement abstract method")
 
 

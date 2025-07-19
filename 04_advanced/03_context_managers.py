@@ -4,7 +4,7 @@ class MyContextManager:
         print("Entering the context.")
         return self
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def __exit__(self, exc_type, exc_val, exc_tb):  # type:ignore
         print("Exiting the context.")
         if exc_type:
             print(f"An exception occurred: {exc_type}: {exc_val}")
