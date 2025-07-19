@@ -34,34 +34,64 @@ This repository is a living collection of focused Python exercises and examples,
 The project is organized into progressive learning modules and application areas:
 
 ```
-Python-Learning-Journey/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt # Main file for all project dependencies
-
-├── 01-Basics/ # Python Fundamentals
-│   ├── 01-Introduction/
-│   ├── 02-Control_Flow/
-│   ├── 03-Data_Structures_Basic/
-│   ├── 04-Functions/
-│   └── Practice_Basics/
+python-learning-roadmap/
+├── .gitignore               # Files/folders to ignore (e.g., .venv, __pycache__)
+├── README.md                # Project description, setup instructions, learning progress
+├── requirements.txt         # List of Python packages needed for the project
 │
-├── 02-Intermediate/ # Intermediate Python Concepts
-│   ├── 01-File_Handling/
-│   ├── 02-Error_Handling/
-│   ├── 03-Modules_Packages/
-│   ├── 04-OOP_Concepts/
-│   ├── 05-Generators_Decorators/
-│   └── Practice_Intermediate/
+├── 01_basics/
+│   ├── 01_hello_world.py
+│   ├── 02_data_types.py
+│   ├── 03_operators.py
+│   ├── 04_input_output.py
+│   ├── 05_conditionals.py
+│   ├── 06_loops.py
+│   └── 07_data_structures_part1.py
 │
-├── 03-Advanced/ # Core Advanced Python Concepts
-│   ├── 01-Data_Structures_Advanced/
-│   ├── 02-Algorithms/
-│   ├── 03-Design_Patterns/
-│   ├── 04-Concurrency_Parallelism/
-│   └── Practice_Advanced/
-└── ... # More core sections or applications to be added as the journey continues!
+├── 02_intermediate/
+│   ├── 01_functions.py
+│   ├── 02_data_structures_part2.py
+│   ├── 03_error_handling.py
+│   ├── 04_modules_and_packages/
+│   │   ├── __init__.py      # Makes it a package
+│   │   ├── my_module.py
+│   │   └── main.py
+│   └── 05_file_io.py
+│
+├── 03_oop/
+│   ├── 01_classes_objects.py
+│   ├── 02_inheritance.py
+│   ├── 03_polymorphism.py
+│   └── 04_encapsulation_abstraction.py
+│
+├── 04_advanced/
+│   ├── 01_decorators.py
+│   ├── 02_generators_iterators.py
+│   ├── 03_context_managers.py
+│   ├── 04_regex.py
+│   ├── 05_unit_testing/
+│   │   ├── calculations.py
+│   │   └── test_calculations.py
+│   ├── 06_external_libs/
+│   │   └── main.py
+│   └── 07_asyncio.py
+│
+├── 05_applications/
+│   ├── 01_web_development/
+│   │   └── flask_app/
+│   │       ├── app.py
+│   │       └── templates/   # If you use HTML templates
+│   │           └── index.html
+│   ├── 02_data_science/
+│   │   └── data_analysis.py
+│   ├── 03_automation/
+│   │   └── simple_file_automation.py
+│   └── 04_databases/
+│       └── sqlite_example.py
+│
+└── exercises/
+    ├── basic_problems.py
+    └── intermediate_challenges.py
 ```
 
 ---
