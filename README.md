@@ -35,9 +35,9 @@ The project is organized into progressive learning modules and application areas
 
 ```
 python-learning-roadmap/
-├── .gitignore               # Files/folders to ignore (e.g., .venv, __pycache__)
-├── README.md                # Project description, setup instructions, learning progress
-├── requirements.txt         # List of Python packages needed for the project
+├── .gitignore
+├── README.md
+├── requirements.txt
 │
 ├── 01_basics/
 │   ├── 01_hello_world.py
@@ -53,7 +53,7 @@ python-learning-roadmap/
 │   ├── 02_data_structures_part2.py
 │   ├── 03_error_handling.py
 │   ├── 04_modules_and_packages/
-│   │   ├── __init__.py      # Makes it a package
+│   │   ├── __init__.py
 │   │   ├── my_module.py
 │   │   └── main.py
 │   └── 05_file_io.py
@@ -80,7 +80,7 @@ python-learning-roadmap/
 │   ├── 01_web_development/
 │   │   └── flask_app/
 │   │       ├── app.py
-│   │       └── templates/   # If you use HTML templates
+│   │       └── templates/
 │   │           └── index.html
 │   ├── 02_data_science/
 │   │   └── data_analysis.py
